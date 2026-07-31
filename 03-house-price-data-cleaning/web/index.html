@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>House Price Data Cleaning — Live Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>House Price Data Cleaning</h1>
+      <p class="subtitle">
+        The same pipeline as <a href="../data_cleaning.py"><code>data_cleaning.py</code></a>, reimplemented in
+        JavaScript so it runs live in your browser on the same messy 308-row dataset — no Python, no server.
+        Step through it one stage at a time, or run it all at once.
+      </p>
+    </header>
+
+    <section class="controls-card">
+      <div class="steps" id="stepsList"></div>
+      <div class="controls-actions">
+        <button class="btn" id="resetBtn" type="button">Reset</button>
+        <button class="btn" id="stepBtn" type="button">Run Next Step ▶</button>
+        <button class="btn primary" id="runAllBtn" type="button">Run All Steps ⏭</button>
+        <button class="btn download" id="downloadBtn" type="button" disabled>Download Cleaned CSV ↓</button>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div class="log-card">
+        <h2>Log</h2>
+        <pre id="logOutput"></pre>
+      </div>
+
+      <div class="table-card">
+        <div class="table-header">
+          <h2 id="tableTitle">Raw Data</h2>
+          <span class="table-meta" id="tableMeta"></span>
+        </div>
+        <div class="table-scroll">
+          <table id="dataTable">
+            <thead id="dataTableHead"></thead>
+            <tbody id="dataTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="pipeline.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

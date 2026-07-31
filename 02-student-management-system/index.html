@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>Student Management System</h1>
+      <p class="subtitle">Records are stored in a single JS object — <code>{ rollNo: { name, age, course, marks } }</code> — the same shape as the dictionary in the Python original, persisted to your browser's local storage.</p>
+    </header>
+
+    <section class="form-card">
+      <h2 id="formTitle">Add Student</h2>
+      <form id="studentForm">
+        <div class="field">
+          <label for="rollNo">Roll No.</label>
+          <input type="text" id="rollNo" required autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" required autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="age">Age</label>
+          <input type="number" id="age" min="1" required>
+        </div>
+        <div class="field">
+          <label for="course">Course</label>
+          <input type="text" id="course" required autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="marks">Marks</label>
+          <input type="number" id="marks" min="0" max="100" required>
+        </div>
+        <div class="form-actions">
+          <button type="submit" id="submitBtn" class="btn primary">Add Student</button>
+          <button type="button" id="cancelBtn" class="btn" hidden>Cancel</button>
+        </div>
+        <p id="formError" class="form-error" hidden></p>
+      </form>
+    </section>
+
+    <section class="table-card">
+      <div class="table-header">
+        <h2>Students (<span id="studentCount">0</span>)</h2>
+        <input type="text" id="searchInput" placeholder="Search by roll no. or name…">
+      </div>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Marks</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="studentTableBody"></tbody>
+      </table>
+      <p id="emptyState" class="empty-state" hidden>No students yet — add one above.</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

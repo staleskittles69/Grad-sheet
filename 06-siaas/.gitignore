@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Java
+backend/target/
+backend/.mvn/
+*.class
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Uploads
+uploads/
+
+# Superpowers
+.superpowers/
+
+# IDE
+.idea/
+*.iml
+.vscode/

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>Employee Dashboard</h1>
+      <p class="subtitle">Company-wide headcount, payroll, and department breakdown</p>
+    </header>
+
+    <section class="cards" id="summaryCards">
+      <div class="card">
+        <span class="card-label">Total Employees</span>
+        <span class="card-value" id="totalEmployees">–</span>
+      </div>
+      <div class="card">
+        <span class="card-label">Departments</span>
+        <span class="card-value" id="totalDepartments">–</span>
+      </div>
+      <div class="card">
+        <span class="card-label">Total Payroll</span>
+        <span class="card-value" id="totalPayroll">–</span>
+      </div>
+      <div class="card">
+        <span class="card-label">Average Salary</span>
+        <span class="card-value" id="avgSalary">–</span>
+      </div>
+    </section>
+
+    <section class="charts">
+      <div class="chart-box">
+        <h2>Headcount by Department</h2>
+        <canvas id="headcountChart"></canvas>
+      </div>
+      <div class="chart-box">
+        <h2>Average Salary by Department</h2>
+        <canvas id="salaryChart"></canvas>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <div class="table-controls">
+        <input type="text" id="searchInput" placeholder="Search by name or job title…">
+        <select id="departmentFilter">
+          <option value="all">All Departments</option>
+        </select>
+        <select id="sortSelect">
+          <option value="name-asc">Name (A–Z)</option>
+          <option value="salary-desc">Salary (High–Low)</option>
+          <option value="salary-asc">Salary (Low–High)</option>
+          <option value="hireDate-desc">Hire Date (Newest)</option>
+        </select>
+      </div>
+
+      <table id="employeeTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Department</th>
+            <th>Location</th>
+            <th>Hire Date</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody id="employeeTableBody"></tbody>
+      </table>
+      <p id="emptyState" class="empty-state" hidden>No employees match your search.</p>
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

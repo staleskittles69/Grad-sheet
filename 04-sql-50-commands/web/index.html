@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQL Playground — 50 Commands</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>SQL Playground</h1>
+      <p class="subtitle">
+        All 50 queries from the <a href="../50_sql_commands.sql">SQL project</a>, running live against an
+        in-browser SQLite database (via <a href="https://sql.js.org/" target="_blank" rel="noopener">sql.js</a>) —
+        no server, no real database, just this page. The shipped project (<code>schema.sql</code>,
+        <code>seed_data.sql</code>, <code>50_sql_commands.sql</code>) targets MySQL 8+; this demo uses the same
+        schema and data translated to SQLite so it can run entirely client-side.
+      </p>
+      <p class="subtitle small" id="loadStatus">Loading SQLite engine…</p>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" id="sidebar"></aside>
+
+      <section class="workspace">
+        <div class="editor-card">
+          <div class="editor-header">
+            <span id="activeQueryLabel">Pick a query from the list, or write your own</span>
+            <div class="editor-actions">
+              <button class="btn" id="resetBtn" type="button">Reset Database</button>
+              <button class="btn primary" id="runBtn" type="button">Run ▶</button>
+            </div>
+          </div>
+          <textarea id="sqlEditor" spellcheck="false" placeholder="SELECT * FROM employees;"></textarea>
+        </div>
+
+        <div class="results-card">
+          <div id="statusLine" class="status-line"></div>
+          <div id="resultsContainer" class="results-container"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

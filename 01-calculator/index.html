@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scientific Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <div class="display">
+      <div class="expression" id="expression"></div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <div class="keys">
+      <button class="key mode-key" id="modeToggle" data-action="toggle-mode">Scientific</button>
+
+      <button class="key sci" data-insert="sin(" data-fresh hidden>sin</button>
+      <button class="key sci" data-insert="cos(" data-fresh hidden>cos</button>
+      <button class="key sci" data-insert="tan(" data-fresh hidden>tan</button>
+      <button class="key sci" data-insert="^" hidden>x^y</button>
+
+      <button class="key sci" data-insert="log(" data-fresh hidden>log</button>
+      <button class="key sci" data-insert="ln(" data-fresh hidden>ln</button>
+      <button class="key sci" data-insert="sqrt(" data-fresh hidden>√</button>
+      <button class="key sci" data-insert="^2" hidden>x²</button>
+
+      <button class="key sci" data-insert="(" data-fresh hidden>(</button>
+      <button class="key sci" data-insert=")" hidden>)</button>
+      <button class="key sci" data-insert="π" data-fresh hidden>π</button>
+      <button class="key sci" data-insert="e" data-fresh hidden>e</button>
+
+      <button class="key sci" data-insert="!" hidden>n!</button>
+      <button class="key sci" data-action="percent" hidden>%</button>
+      <button class="key sci" data-action="ans" hidden>ANS</button>
+      <button class="key sci" id="angleToggle" data-action="angle" hidden>DEG</button>
+
+      <button class="key op" data-action="clear">AC</button>
+      <button class="key op" data-action="delete">DEL</button>
+      <button class="key op" data-action="percent">%</button>
+      <button class="key operator" data-insert="/">÷</button>
+
+      <button class="key" data-insert="7" data-fresh>7</button>
+      <button class="key" data-insert="8" data-fresh>8</button>
+      <button class="key" data-insert="9" data-fresh>9</button>
+      <button class="key operator" data-insert="*">×</button>
+
+      <button class="key" data-insert="4" data-fresh>4</button>
+      <button class="key" data-insert="5" data-fresh>5</button>
+      <button class="key" data-insert="6" data-fresh>6</button>
+      <button class="key operator" data-insert="-">−</button>
+
+      <button class="key" data-insert="1" data-fresh>1</button>
+      <button class="key" data-insert="2" data-fresh>2</button>
+      <button class="key" data-insert="3" data-fresh>3</button>
+      <button class="key operator" data-insert="+">+</button>
+
+      <button class="key" data-insert="0" data-fresh>0</button>
+      <button class="key" data-action="decimal">.</button>
+      <button class="key equals" data-action="equals">=</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

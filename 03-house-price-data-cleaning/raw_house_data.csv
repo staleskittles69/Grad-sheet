@@ -1,0 +1,309 @@
+house_id,city,area_sqft,bedrooms,bathrooms,age_years,furnishing,price_lakhs
+1,Hyderabad,1980.0,3,2.0,32.0,Unfurnished,52.49
+2,Chennai,1571.0,5,,1.0,Furnished,77.13
+3, Bangalore,1429.0,1,1.0,6.0,,51.8
+4,vijayawada,1034.0,1,1.0,4.0,Semi-Furnished,64.97
+5,vijayawada,746.0,3,1.0,28.0,Semi-Furnished,89.65
+6,chennai,1281.0,3,1.0,24.0,furnished,51.06
+7,Hyderabad,1476.0,4,2.0,19.0,Unfurnished,85.14
+8, Bangalore,2296.0,3,3.0,9.0,Furnished,81.94
+9,HYDERABAD ,1559.0,5,3.0,3.0,SEMI-FURNISHED,41.13
+10,Hyderabad,1942.0,3,2.0,22.0,,89.35
+11,Bangalore,1275.0,1,3.0,9.0,SEMI-FURNISHED,82.46
+12,Guntur,967.0,1,3.0,23.0,furnished,67.55
+13,Chennai,1066.0,5,,27.0,Unfurnished,45.94
+14,Chennai,1174.0,1,2.0,33.0,furnished,43.52
+15,Chennai,2458.0,5,1.0,19.0,furnished,618.72
+16,Chennai,1130.0,2,3.0,0.0,Furnished,78.56
+17,Bangalore,1877.0,1,1.0,11.0,Furnished,41.11
+18,hyderabad,1094.0,2,,34.0,Semi-Furnished,75.94
+19,chennai,1919.0,4,1.0,21.0,Unfurnished,33.96
+20,vijayawada,1673.0,3,3.0,24.0,Furnished,59.9
+21,Bangalore,1430.0,4,,18.0,Furnished,67.74
+22,Vijayawada,1482.0,4,1.0,6.0,,126.13
+23,hyderabad,1205.0,3,1.0,35.0,Unfurnished,
+24,Guntur,,4,2.0,30.0,furnished,101.8
+25,Chennai,1295.0,5,2.0,39.0,furnished,68.75
+26, Bangalore,948.0,3,3.0,34.0,SEMI-FURNISHED,
+27,vijayawada,925.0,1,1.0,,SEMI-FURNISHED,
+28,chennai,1578.0,3,3.0,10.0,Semi-Furnished,76.12
+29,Bangalore,2211.0,5,2.0,9.0,,61.16
+30,vijayawada,1572.0,2,3.0,36.0,Unfurnished,101.35
+31,vijayawada,1447.0,5,1.0,22.0,,53.59
+32,HYDERABAD ,1629.0,3,1.0,18.0,Unfurnished,93.31
+33,Hyderabad,2088.0,4,1.0,38.0,Furnished,
+34,Bangalore,1599.0,2,2.0,24.0,SEMI-FURNISHED,63.49
+35,chennai,1315.0,5,,36.0,Furnished,38.2
+36,Hyderabad,1998.0,1,1.0,39.0,SEMI-FURNISHED,76.38
+37,chennai,1693.0,2,2.0,,Furnished,101.13
+38,chennai,2191.0,3,1.0,,Semi-Furnished,63.07
+39,HYDERABAD ,1582.0,3,3.0,,furnished,60.08
+40, Bangalore,949.0,3,3.0,32.0,,37.13
+41,hyderabad,884.0,1,3.0,5.0,Unfurnished,59.27
+42,Chennai,2243.0,2,3.0,12.0,Furnished,25.18
+43,Chennai,2276.0,1,2.0,21.0,Semi-Furnished,42.18
+44,Vijayawada,1419.0,3,3.0,31.0,,70.67
+45,Hyderabad,1328.0,2,1.0,4.0,SEMI-FURNISHED,97.98
+46,Guntur,2158.0,3,3.0,24.0,Furnished,135.23
+47,vijayawada,1002.0,3,,11.0,Unfurnished,50.34
+48,chennai,1097.0,4,3.0,8.0,Semi-Furnished,1210.56
+49, Bangalore,1789.0,3,2.0,20.0,Semi-Furnished,71.09
+50,Chennai,1322.0,4,3.0,16.0,,61.22
+51,Chennai,1498.0,3,2.0,25.0,furnished,75.81
+52,hyderabad,1426.0,4,1.0,12.0,Semi-Furnished,66.55
+53,Vijayawada,1652.0,4,3.0,32.0,furnished,67.76
+54,vijayawada,2133.0,2,1.0,3.0,Unfurnished,54.79
+55,vijayawada,1541.0,2,1.0,34.0,Furnished,30.05
+56,Hyderabad,1790.0,4,2.0,1.0,Unfurnished,
+57,Bangalore,,2,1.0,,Semi-Furnished,81.33
+58,hyderabad,1478.0,3,3.0,13.0,Semi-Furnished,
+59,Chennai,1121.0,1,2.0,15.0,,50.1
+60, Bangalore,952.0,3,1.0,0.0,SEMI-FURNISHED,65.21
+61,Guntur,1105.0,3,3.0,28.0,Furnished,84.87
+62,Chennai,1350.0,4,2.0,6.0,,₹69.51 L
+63,Vijayawada,1912.0,3,1.0,26.0,furnished,48.6
+64,Guntur,903.0,2,3.0,29.0,,95.66
+65,vijayawada,,5,2.0,33.0,SEMI-FURNISHED,104.48
+66,Vijayawada,1282.0,3,1.0,28.0,Unfurnished,77.36
+67,Guntur,1353.0,5,3.0,12.0,furnished,89.34
+68,Vijayawada,1951.0,4,2.0,29.0,furnished,96.05
+69,Hyderabad,1742.0,3,3.0,33.0,SEMI-FURNISHED,93.25
+70,vijayawada,2102.0,5,3.0,12.0,Semi-Furnished,80.35
+71,Chennai,1430.0,1,2.0,4.0,Semi-Furnished,79.96
+72,hyderabad,,5,3.0,35.0,Semi-Furnished,77.99
+73,vijayawada,1399.0,5,1.0,5.0,Semi-Furnished,37.57
+74,hyderabad,1609.0,3,1.0,23.0,Furnished,82.52
+75, Bangalore,1579.0,4,2.0,9.0,Furnished,31.1
+76,vijayawada,1012.0,3,3.0,5.0,,45.14
+77,Vijayawada,1541.0,2,2.0,31.0,Furnished,97.59
+78,HYDERABAD ,1603.0,4,2.0,5.0,,86.01
+79,Bangalore,2633.0,2,3.0,26.0,Furnished,102.18
+80, Bangalore,2345.0,2,3.0,27.0,SEMI-FURNISHED,
+81,Guntur,1116.0,3,3.0,2.0,Semi-Furnished,36.19
+82,vijayawada,1371.0,5,1.0,6.0,furnished,58.99
+83,hyderabad,841.0,2,,31.0,Semi-Furnished,67.55
+84,chennai,1234.0,3,2.0,20.0,Unfurnished,66.97
+85, Bangalore,1642.0,1,2.0,4.0,Unfurnished,93.34
+86,Chennai,2043.0,1,2.0,39.0,furnished,55.97
+87,Hyderabad,1172.0,1,1.0,10.0,Unfurnished,73.8
+88,Vijayawada,1206.0,1,1.0,0.0,furnished,40.28
+89,Chennai,534.0,5,,36.0,SEMI-FURNISHED,76.26
+90,chennai,1427.0,5,3.0,0.0,Unfurnished,65.08
+91,vijayawada,1022.0,5,3.0,22.0,Unfurnished,46.25
+92,chennai,1262.0,1,1.0,39.0,Furnished,59.1
+93,chennai,1105.0,1,3.0,23.0,Unfurnished,60.4
+94,Vijayawada,1458.0,2,1.0,23.0,Furnished,58.25
+95,chennai,709.0,3,3.0,15.0,Semi-Furnished,109.28
+96,HYDERABAD ,840.0,2,2.0,5.0,,62.54
+97,HYDERABAD ,2458.0,3,2.0,22.0,Furnished,58.9
+98, Bangalore,921.0,1,3.0,35.0,Unfurnished,12.56
+99, Bangalore,1006.0,4,2.0,3.0,,42.64
+100,hyderabad,2327.0,2,3.0,35.0,,58.42
+101,chennai,2807.0,1,2.0,16.0,Furnished,47.85
+102,hyderabad,973.0,4,3.0,21.0,Furnished,99.54
+103,chennai,1334.0,5,2.0,6.0,Unfurnished,60.88
+104,Hyderabad,1654.0,1,1.0,24.0,furnished,
+105,Chennai,2278.0,3,3.0,7.0,,66.54
+106,Chennai,1056.0,5,2.0,10.0,Semi-Furnished,65.93
+107,Chennai,1390.0,4,2.0,28.0,Furnished,62.78
+108, Bangalore,,5,1.0,,Semi-Furnished,65.09
+109,vijayawada,1696.0,3,1.0,17.0,,1295.6399999999999
+110,Chennai,1331.0,2,2.0,23.0,Furnished,
+111,HYDERABAD ,1440.0,4,,5.0,Unfurnished,14.96
+112,Chennai,-881.0,1,3.0,11.0,Furnished,51.42
+113,Bangalore,1393.0,2,3.0,13.0,Furnished,
+114,vijayawada,1380.0,4,3.0,26.0,,82.25
+115,Bangalore,1604.0,4,3.0,39.0,Furnished,76.83
+116,Bangalore,,1,2.0,33.0,Semi-Furnished,55.39
+117,Hyderabad,1712.0,3,1.0,7.0,,90.48
+118,hyderabad,1956.0,2,2.0,0.0,furnished,90.75
+119,HYDERABAD ,1570.0,3,2.0,2.0,Furnished,69.6
+120,hyderabad,,5,3.0,23.0,Unfurnished,89.07
+121,vijayawada,1524.0,1,1.0,6.0,,71.82
+122, Bangalore,1500.0,5,2.0,9.0,Unfurnished,50.96
+123, Bangalore,1175.0,3,2.0,33.0,furnished,82.45
+124,vijayawada,1642.0,4,1.0,34.0,furnished,67.77
+125,chennai,1456.0,3,1.0,33.0,furnished,65.03
+126,Bangalore,2442.0,2,2.0,10.0,Semi-Furnished,101.82
+127,Hyderabad,2208.0,4,1.0,24.0,,3.73
+128,Chennai,1674.0,4,1.0,24.0,,29.56
+129,Bangalore,,1,2.0,7.0,Furnished,35.32
+130, Bangalore,999.0,4,1.0,22.0,SEMI-FURNISHED,55.92
+131,Bangalore,2036.0,4,2.0,21.0,SEMI-FURNISHED,58.63
+132,Bangalore,1618.0,2,1.0,15.0,SEMI-FURNISHED,
+133,Hyderabad,1716.0,5,1.0,30.0,Unfurnished,40.37
+134,Bangalore,715.0,4,2.0,27.0,Unfurnished,43.48
+135,Chennai,1917.0,2,3.0,21.0,,126.44
+136,Vijayawada,1704.0,1,2.0,29.0,Furnished,110.04
+137, Bangalore,1000.0,4,3.0,30.0,SEMI-FURNISHED,54.71
+138,Hyderabad,1288.0,2,2.0,22.0,,55.91
+139,Vijayawada,1619.0,4,2.0,10.0,SEMI-FURNISHED,36.27
+140,vijayawada,1524.0,3,2.0,30.0,Unfurnished,17.3
+141,Guntur,1369.0,3,3.0,28.0,furnished,62.08
+142,HYDERABAD ,1453.0,1,3.0,39.0,Furnished,40.05
+143,HYDERABAD ,1387.0,4,3.0,5.0,,62.88
+144,vijayawada,1569.0,1,3.0,16.0,Unfurnished,24.99
+145,Guntur,,3,2.0,36.0,Furnished,45.95
+146,chennai,345.0,5,2.0,20.0,SEMI-FURNISHED,68.72
+147,Hyderabad,1393.0,5,3.0,37.0,furnished,74.16
+148,HYDERABAD ,1579.0,5,1.0,0.0,furnished,75.44
+149,chennai,1633.0,5,2.0,1.0,Furnished,31.99
+150,Hyderabad,1333.0,3,3.0,31.0,SEMI-FURNISHED,86.37
+151,chennai,709.0,2,2.0,14.0,furnished,44.99
+152,HYDERABAD ,1648.0,5,1.0,20.0,SEMI-FURNISHED,80.82
+153,Guntur,2277.0,5,2.0,17.0,SEMI-FURNISHED,64.73
+154,HYDERABAD ,810.0,5,1.0,16.0,Semi-Furnished,30.59
+155,vijayawada,1889.0,4,3.0,37.0,Semi-Furnished,57.1
+156, Bangalore,1352.0,1,3.0,3.0,,₹74.13 L
+157,hyderabad,1472.0,3,1.0,30.0,furnished,80.32
+158,Bangalore,1026.0,3,2.0,,Unfurnished,61.48
+159,Bangalore,1349.0,5,3.0,26.0,Semi-Furnished,103.29
+160,Chennai,2085.0,2,,15.0,furnished,90.19
+161,Guntur,1762.0,2,1.0,6.0,SEMI-FURNISHED,58.58
+162, Bangalore,2280.0,1,2.0,27.0,Furnished,83.75
+163,vijayawada,2030.0,5,2.0,18.0,furnished,113.34
+164,vijayawada,1698.0,4,2.0,5.0,,114.01
+165,vijayawada,2285.0,1,1.0,14.0,Semi-Furnished,34.3
+166,chennai,1698.0,3,1.0,38.0,Semi-Furnished,
+167,Vijayawada,1873.0,3,3.0,10.0,,102.12
+168,hyderabad,1367.0,3,1.0,7.0,Furnished,38.54
+169,Vijayawada,1530.0,5,1.0,27.0,Unfurnished,31.94
+170,Hyderabad,1186.0,1,1.0,7.0,Unfurnished,52.85
+171,hyderabad,,2,1.0,36.0,SEMI-FURNISHED,75.51
+172,Hyderabad,970.0,1,1.0,34.0,Furnished,749.28
+173,Chennai,1852.0,2,2.0,39.0,Unfurnished,48.74
+174,Chennai,-1414.0,5,3.0,36.0,Furnished,48.14
+175, Bangalore,2027.0,5,1.0,9.0,SEMI-FURNISHED,47.19
+176,vijayawada,1838.0,1,1.0,8.0,furnished,43.01
+177,Chennai,2319.0,4,1.0,13.0,Unfurnished,122.04
+178,hyderabad,1829.0,2,2.0,18.0,Unfurnished,72.44
+179,Guntur,793.0,1,1.0,35.0,Furnished,87.17
+180,Bangalore,1470.0,2,3.0,29.0,,52.77
+181,Guntur,973.0,1,2.0,25.0,furnished,60.35
+182,hyderabad,1267.0,3,3.0,35.0,Semi-Furnished,47.16
+183,vijayawada,2180.0,5,2.0,,Unfurnished,-1.29
+184, Bangalore,1787.0,3,2.0,15.0,SEMI-FURNISHED,
+185,vijayawada,1185.0,4,3.0,16.0,SEMI-FURNISHED,19.73
+186,vijayawada,1044.0,3,2.0,20.0,Unfurnished,8.76
+187,hyderabad,1515.0,1,3.0,3.0,Semi-Furnished,35.12
+188,Vijayawada,953.0,1,3.0,,furnished,98.12
+189,HYDERABAD ,1198.0,2,2.0,26.0,furnished,63.89
+190,Vijayawada,,2,3.0,29.0,furnished,97.26
+191, Bangalore,2020.0,5,1.0,21.0,Furnished,₹75.27 L
+192, Bangalore,,5,3.0,31.0,Unfurnished,84.56
+193, Bangalore,469.0,5,3.0,37.0,furnished,42.48
+194,Vijayawada,1637.0,4,3.0,,,78.1
+195,Guntur,1532.0,3,1.0,17.0,furnished,83.22
+196,Hyderabad,1686.0,4,3.0,4.0,Unfurnished,50.58
+197,Vijayawada,2227.0,3,2.0,31.0,furnished,78.99
+198,hyderabad,572.0,4,1.0,36.0,Semi-Furnished,79.15
+199,Vijayawada,1234.0,4,1.0,27.0,Furnished,51.26
+200,Guntur,1766.0,4,2.0,34.0,SEMI-FURNISHED,36.93
+201,Vijayawada,788.0,4,1.0,34.0,,₹35.4 L
+202,Guntur,2164.0,1,1.0,31.0,,67.16
+203,vijayawada,1666.0,4,2.0,20.0,furnished,73.18
+204, Bangalore,1881.0,2,2.0,3.0,Furnished,45.19
+205,vijayawada,1243.0,4,1.0,0.0,,65.66
+206,HYDERABAD ,1866.0,3,3.0,,Unfurnished,79.26
+207,Chennai,1981.0,5,3.0,17.0,Semi-Furnished,80.45
+208,Guntur,1605.0,2,2.0,29.0,,103.8
+209,HYDERABAD ,1605.0,5,3.0,18.0,SEMI-FURNISHED,96.92
+210,Chennai,1622.0,5,2.0,0.0,SEMI-FURNISHED,
+211,HYDERABAD ,1111.0,2,1.0,8.0,Semi-Furnished,107.09
+212,Chennai,1434.0,3,1.0,39.0,,51.73
+213,Chennai,1431.0,3,3.0,39.0,Unfurnished,
+214,vijayawada,1673.0,4,3.0,15.0,furnished,66.7
+215,Chennai,1950.0,4,3.0,32.0,SEMI-FURNISHED,54.7
+216,HYDERABAD ,1024.0,5,,28.0,furnished,19.81
+217,Hyderabad,1444.0,2,1.0,37.0,Semi-Furnished,60.71
+218,Hyderabad,2167.0,3,1.0,35.0,Semi-Furnished,26.02
+219,vijayawada,1165.0,3,1.0,25.0,Unfurnished,89.18
+220,Guntur,1130.0,5,,15.0,,102.92
+221,hyderabad,1591.0,2,2.0,25.0,SEMI-FURNISHED,45.08
+222,vijayawada,1880.0,3,1.0,12.0,Unfurnished,72.55
+223,Chennai,1505.0,1,3.0,13.0,SEMI-FURNISHED,46.87
+224,HYDERABAD ,2098.0,5,2.0,24.0,SEMI-FURNISHED,49.29
+225,Chennai,1886.0,2,1.0,22.0,Unfurnished,84.36
+226,Vijayawada,1879.0,2,2.0,23.0,Unfurnished,64.04
+227,chennai,1749.0,3,3.0,15.0,,108.49
+228,Bangalore,2547.0,3,1.0,16.0,furnished,52.94
+229,Bangalore,1408.0,5,1.0,0.0,Furnished,
+230,hyderabad,598.0,3,1.0,24.0,SEMI-FURNISHED,67.44
+231,vijayawada,2222.0,3,3.0,23.0,furnished,84.89
+232,chennai,1294.0,1,1.0,37.0,furnished,53.82
+233,Hyderabad,,1,2.0,20.0,SEMI-FURNISHED,63.76
+234,Chennai,2089.0,2,2.0,18.0,,62.11
+235,vijayawada,779.0,5,3.0,2.0,Semi-Furnished,44.1
+236,Chennai,937.0,5,1.0,7.0,Unfurnished,81.55
+237, Bangalore,779.0,4,3.0,13.0,Semi-Furnished,81.26
+238,vijayawada,1143.0,4,3.0,15.0,furnished,79.84
+239,Vijayawada,1698.0,2,2.0,14.0,Unfurnished,103.42
+240, Bangalore,1736.0,1,1.0,15.0,Unfurnished,101.23
+241,hyderabad,1624.0,1,3.0,30.0,SEMI-FURNISHED,55.63
+242,Bangalore,864.0,2,1.0,5.0,Unfurnished,74.33
+243,Hyderabad,460.0,2,,,Unfurnished,₹49.41 L
+244, Bangalore,1524.0,1,2.0,6.0,Unfurnished,65.58
+245, Bangalore,1288.0,2,1.0,12.0,Semi-Furnished,50.01
+246,Hyderabad,1707.0,1,2.0,27.0,Furnished,105.5
+247,Chennai,1816.0,4,,1.0,SEMI-FURNISHED,₹74.09 L
+248,vijayawada,1562.0,5,1.0,13.0,Furnished,59.55
+249,Chennai,1842.0,4,1.0,0.0,Semi-Furnished,
+250,Hyderabad,1603.0,3,1.0,,SEMI-FURNISHED,10.73
+251,hyderabad,1739.0,3,2.0,29.0,Furnished,14.65
+252,vijayawada,1183.0,2,3.0,9.0,furnished,84.9
+253,hyderabad,1419.0,1,1.0,7.0,SEMI-FURNISHED,66.51
+254,Vijayawada,1589.0,3,1.0,3.0,furnished,71.26
+255, Bangalore,1869.0,3,1.0,18.0,Semi-Furnished,31.84
+256,hyderabad,1323.0,1,,30.0,Furnished,64.42
+257, Bangalore,1735.0,3,1.0,23.0,,115.09
+258,hyderabad,,2,2.0,35.0,Semi-Furnished,85.6
+259,hyderabad,1447.0,1,1.0,13.0,SEMI-FURNISHED,69.24
+260,Bangalore,1873.0,4,1.0,11.0,Semi-Furnished,54.02
+261,Chennai,603.0,3,2.0,19.0,Furnished,55.14
+262,hyderabad,917.0,4,2.0,8.0,SEMI-FURNISHED,11.77
+263,HYDERABAD ,,4,2.0,39.0,,71.44
+264,Guntur,450.0,5,3.0,7.0,,86.14
+265,Guntur,1195.0,5,,19.0,SEMI-FURNISHED,25.61
+266,Bangalore,1837.0,4,3.0,20.0,Semi-Furnished,48.46
+267,vijayawada,1372.0,5,2.0,2.0,,36.06
+268,Vijayawada,1589.0,3,1.0,18.0,SEMI-FURNISHED,40.87
+269, Bangalore,1990.0,5,,18.0,Semi-Furnished,66.34
+270,Bangalore,,4,1.0,10.0,Furnished,12.89
+271,HYDERABAD ,1469.0,4,2.0,5.0,,80.36
+272,Hyderabad,2109.0,5,1.0,1.0,Semi-Furnished,83.85
+273,hyderabad,1541.0,3,3.0,0.0,SEMI-FURNISHED,58.72
+274,Guntur,1123.0,4,2.0,,Furnished,2.98
+275,vijayawada,1233.0,2,3.0,3.0,Semi-Furnished,40.09
+276,vijayawada,834.0,5,3.0,38.0,Semi-Furnished,95.82
+277,vijayawada,1100.0,4,2.0,9.0,Semi-Furnished,
+278,Chennai,1339.0,4,,26.0,SEMI-FURNISHED,56.31
+279,Hyderabad,1862.0,3,3.0,26.0,,35.5
+280,Hyderabad,2274.0,5,1.0,19.0,,85.11
+281,HYDERABAD ,878.0,1,1.0,35.0,SEMI-FURNISHED,48.12
+282,vijayawada,-1677.0,1,3.0,,Semi-Furnished,75.1
+283, Bangalore,,3,2.0,9.0,,79.14
+284,vijayawada,1714.0,4,1.0,10.0,furnished,110.91
+285,vijayawada,1441.0,5,2.0,,furnished,59.93
+286,Guntur,676.0,3,2.0,11.0,SEMI-FURNISHED,74.4
+287,hyderabad,1918.0,4,3.0,,SEMI-FURNISHED,27.87
+288,Bangalore,1228.0,3,3.0,30.0,,1137.1200000000001
+289,Bangalore,1260.0,5,1.0,12.0,furnished,45.99
+290,vijayawada,1019.0,4,1.0,35.0,furnished,50.98
+291,chennai,1206.0,3,2.0,30.0,SEMI-FURNISHED,64.44
+292,HYDERABAD ,1693.0,5,1.0,36.0,Semi-Furnished,25.93
+293,Guntur,,1,1.0,4.0,Semi-Furnished,70.72
+294,Vijayawada,1648.0,5,1.0,39.0,furnished,89.19
+295,Bangalore,1663.0,1,1.0,24.0,Furnished,72.32
+296,Bangalore,2094.0,2,3.0,,Semi-Furnished,25.28
+297,chennai,1346.0,5,1.0,14.0,SEMI-FURNISHED,61.9
+298,vijayawada,835.0,4,1.0,38.0,,83.55
+299,HYDERABAD ,1980.0,5,3.0,23.0,furnished,18.05
+300,Hyderabad,1351.0,4,1.0,2.0,Unfurnished,38.13
+190,Vijayawada,,2,3.0,29.0,furnished,97.26
+124,vijayawada,1642.0,4,1.0,34.0,furnished,67.77
+186,vijayawada,1044.0,3,2.0,20.0,Unfurnished,8.76
+214,vijayawada,1673.0,4,3.0,15.0,furnished,66.7
+107,Chennai,1390.0,4,2.0,28.0,Furnished,62.78
+128,Chennai,1674.0,4,1.0,24.0,,29.56
+177,Chennai,2319.0,4,1.0,13.0,Unfurnished,122.04
+74,hyderabad,1609.0,3,1.0,23.0,Furnished,82.52
